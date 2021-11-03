@@ -34,5 +34,15 @@
 .heart {
     text-align: center;
     display: none;
-} 
+}
+/* .product:hover + .heart {
+    display: block;
+    text-align: center;
+    background-color: red;
+    display: block;
+} */
+.product:hover + .sconto {
+    width: 300px;
+    display:block;
+}
 
